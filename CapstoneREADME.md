@@ -1,4 +1,4 @@
-# Milestone 1 - APP_NAME_HERE (Unit 7)
+# Milestone 1 - Climbing Buddy (Unit 7)
 
 ## Table of Contents
 
@@ -10,17 +10,17 @@
 
 ### Description
 
-[Description of your app]
+An app that allows users to find nearby gyms,  log their climbs in a dairy where they can provide photos and videos of the climbs they attempted. The user can also keep their phone on them during the climb where sensors in the phone will be used to track the total distance they climbed during the session, and keep tracks of attempts made on a climb. They can also scroll through a feed of outdoor rock climbing parks or scroll through a feed of kilter board setups that they can get the setting or to try themselves.
 
 ### App Evaluation
 
 [Evaluation of your app across the following attributes]
-- **Category:**
-- **Mobile:**
-- **Story:**
-- **Market:**
-- **Habit:**
-- **Scope:**
+- **Category:** Fitness
+- **Mobile:** Uses pressure sensors and accelerometer to track height, camera to upload pictures and videos of the climbs, location to find nearby gyms. Story: Allows users to find new climbs to try, track climbing data, and locate nearby gyms.
+- **Story:** Creates a better way for climbers to learn and enjoy the sport, providing a space for discovery, new challenges, and organized log of previous climbs to review and learn from
+- **Market:** Rock climbers of any skill level
+- **Habit:** Scroll through board climbs, save them for future sessions, and track your climbs
+- **Scope:** Future scope could allow users to find outdoor climbs and also post beta of climbs to a feed of friends
 
 ## Product Spec
 
@@ -28,15 +28,17 @@
 
 **Required Features**
 
-1. [fill in your required user features here]
-2. ...
-3. ...
+1. Scrollable feed of kilter board set ups, where the user ca click and get the setting of the board
+2. log book where users can log their day of climbing 
+3. post pictures in log book
+4. track climbing distance using phone sensors when the phone is with the user during long climbs
+5. favorite kilter board setups so they can be found easily
 
 **Optional Features**
 
-1. [fill in your optional user features here]
-2. ...
-3. ...
+1. Find nearby rock climbing gyms using the user's current location
+2. Find outdoor climbing puzzles
+3. post videos in log book
 
 ### 2. Screen Archetypes
 
