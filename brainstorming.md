@@ -81,9 +81,39 @@
 ## New App Ideas - List
 1. Jiu Jitsu companion App
     - allows users to find nearby gyms, get tips on different jiu jitsu positions found through an endless feed, get feedback on their rolls, and log their rolls and what was going on in class to recall on and boost imporvement in the sport. 
-2. Liquor Store Companion
+2. Liquor Recipe Browser
     - Helps users find liquor stores near them and decide on what to drink. It suggests drink ideas and provides a list of ingredients and steps to make it. It also provides an area that supports drinking games and a gallery for users to save their best drink creations. This app provides a feed of endless drink/cocktail ideas where they can click and get a list of ingredients and recipe for. They can also filter the feed by alchol types to better fit their preferences.
 3. Steam Friend Assistant
     - This app allows users to create groups with their friends and see games they all share. Using a list of games each person in the group shares, it will select a game randomly to help people decide what to play. The app with also show new games to the user that they dont own and allow them to see short gameplay clips of the game. This app will also show funny stats like a wall of shame where you can see which games a friend purchased but has not played yet, as well as a night owl wall where you can see which friends are on playing past 2AM.
 4. Rock Climbing Companion App
-    - allows users to find nearby gyms, scroll through a feed where users can find tips or new training exercises, log their climbs in a dairy where they can provide photos and videos of the climbs they attempted. The user can also keep their phone on them during the climb where sensors in the phone will be used to track the total distance they climbed during the session, and keep tracks of attempts made on a climb.
+    - allows users to find nearby gyms, scroll through a feed where users can find tips or new training exercises, log their climbs in a dairy where they can provide photos and videos of the climbs they attempted. The user can also keep their phone on them during the climb where sensors in the phone will be used to track the total distance they climbed during the session, and keep tracks of attempts made on a climb. They can also scroll through a feed of outdoor rock climbing parks or scroll through a feed of kilter board setups that they can get the setting or to try themselves.
+5. Recipe App
+   - User gets a feed of foods and can click on them to see ingredients and recipe the make them. The app highlights nearby stores that contain all the required ingredients and allows users to post their foods to their friends lis.
+6. Lego customer build app
+   - user can scroll through a feed of custom Lego builds built by the community. They can click on a Lego build and see the required pieces and watch a short video on how the set is put together. Users can post their custom sets and trade Lego related products to other members on the app.
+7. Pokemon TCG scanner app
+   - This app allows users to scan card booths. It checks each card at the booth and compares them to current sale prices. It then highlights cards worth their posted price at the booth and tells you what to look for condition wise, giving varying prices between the condition of the card.
+
+## Top 3 New App Ideas
+1. Rock Climbing Companion App
+2. Liquor Recipe Browser
+3. Steam Friend Assistant
+
+## New App Ideas - Evaluate and Categories
+1. Rock Climbing Companion App
+
+2. Liquor Recipe Browser
+   - **Description:**  Helps users find liquor stores near them and decide on what to drink. It suggests drink ideas and provides a list of ingredients and steps to make it. It also provides an area that supports drinking games and a gallery for users to save their best drink creations. This app provides a feed of endless drink/cocktail ideas where they can click and get a list of ingredients and recipe for. They can also filter the feed by alchol types to better fit their preferences.
+   -  **Category:** Food & Social
+   -  **Mobile:** Uses location to find nearby stores and uses sensors in phone for interactive drinking games with friends
+   -  **Story:** Helps users discover new drinks and create fun drinking environments with friends
+   -  **Habit:** Doomscrollable drinks, with pictures and recipes allowing users to always find something new to drink.
+   -  **Scope:** Can grow to allow users to find nearby bars that supply the cocktails found in our doom scroll feed. Allow for picture and video posting into a public feed where the user can share their drinks with others  
+3. Steam Friend Assistant
+   - **Description:**  This app allows users to create groups with their friends and see games they all share. Using a list of games each person in the group shares, it will select a game randomly to help people decide what to play. The app with also show new games to the user that they dont own and allow them to see short gameplay clips of the game. This app will also show funny stats like a wall of shame where you can see which games a friend purchased but has not played yet, as well as a night owl wall where you can see which friends are on playing past 2AM.
+   -  **Category:** Gaming & Social
+   -  **Mobile:** Implement sensors for picking random game on phone shake
+   -  **Story:** Helps users decide which game to play with friends and helps friend groups find new games to play while creating a friendly and unique environment to friend groups.
+   -  **Habit:** People often dont know which game they want to play so our app would be used to remove the decision struggle.
+   -  **Scope:** Can grow to allow people to find new friends with similar intrests
+   
