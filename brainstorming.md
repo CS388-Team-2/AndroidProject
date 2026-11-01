@@ -86,7 +86,7 @@
 3. Steam Friend Assistant
     - This app allows users to create groups with their friends and see games they all share. Using a list of games each person in the group shares, it will select a game randomly to help people decide what to play. The app with also show new games to the user that they dont own and allow them to see short gameplay clips of the game. This app will also show funny stats like a wall of shame where you can see which games a friend purchased but has not played yet, as well as a night owl wall where you can see which friends are on playing past 2AM.
 4. Rock Climbing Companion App
-    - allows users to find nearby gyms, scroll through a feed where users can find tips or new training exercises, log their climbs in a dairy where they can provide photos and videos of the climbs they attempted. The user can also keep their phone on them during the climb where sensors in the phone will be used to track the total distance they climbed during the session, and keep tracks of attempts made on a climb. They can also scroll through a feed of outdoor rock climbing parks or scroll through a feed of kilter board setups that they can get the setting or to try themselves.
+    - allows users to find nearby gyms, log their climbs in a dairy where they can provide photos and videos of the climbs they attempted. The user can also keep their phone on them during the climb where sensors in the phone will be used to track the total distance they climbed during the session, and keep tracks of attempts made on a climb. They can also scroll through a feed of outdoor rock climbing parks or scroll through a feed of kilter board setups that they can get the setting or to try themselves.
 5. Recipe App
    - User gets a feed of foods and can click on them to see ingredients and recipe the make them. The app highlights nearby stores that contain all the required ingredients and allows users to post their foods to their friends lis.
 6. Lego customer build app
@@ -101,7 +101,7 @@
 
 ## New App Ideas - Evaluate and Categories
 1. Rock Climbing Companion App
-   - **Decription:** allows users to find nearby gyms, scroll through a feed where users can find tips or new training exercises, log their climbs in a dairy where they can provide photos and videos of the climbs they attempted. The user can also keep their phone on them during the climb where sensors in the phone will be used to track the total distance they climbed during the session, and keep tracks of attempts made on a climb. They can also scroll through a feed of outdoor rock climbing parks or scroll through a feed of kilter board setups that they can get the setting or to try themselves.
+   - **Decription:** allows users to find nearby gyms, log their climbs in a dairy where they can provide photos and videos of the climbs they attempted. The user can also keep their phone on them during the climb where sensors in the phone will be used to track the total distance they climbed during the session, and keep tracks of attempts made on a climb. They can also scroll through a feed of outdoor rock climbing parks or scroll through a feed of kilter board setups that they can get the setting or to try themselves.
    - **Category:** Fitness
    - **Mobile:** Uses pressure sensors and accelerometer to track height, camera to upload pictures and videos of the climbs, location to find nearby gyms.
 Story: Allows users to find new climbs to try, track climbing data, and locate nearby gyms.
