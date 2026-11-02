@@ -1,88 +1,119 @@
-# AndroidProject
+# Milestone 1 - Crux (Unit 7)
 
-Early planning repository for a collaborative Android rock climbing companion app.
+## Table of Contents
 
-## Current Status
+1. [Overview](#Overview)
+1. [Product Spec](#Product-Spec)
+1. [Wireframes](#Wireframes)
 
-We are intentionally keeping starter code minimal while finalizing the idea.
+## Overview
 
-Planned stack:
-- Android app
-- Kotlin
-- Kotlin Coroutines and Flow
-- Gradle with Groovy build scripts
-- Android `SensorManager`
-- Google Play Services Location API
+### Description
 
-## Product Idea
+An app that allows users to find nearby gyms,  log their climbs in a dairy where they can provide photos and videos of the climbs they attempted. The user can also keep their phone on them during the climb where sensors in the phone will be used to track the total distance they climbed during the session, and keep tracks of attempts made on a climb. They can also scroll through a feed of outdoor rock climbing parks or scroll through a feed of kilter board setups that they can get the setting or to try themselves.
 
-**The Pitch:**  
-An infinite, mobile-first feed of climbing routes that helps climbers discover climbs, save routes to try, and passively track climbing sessions.
+### App Evaluation
 
-*  **Category:** Fitness
-*  **Mobile:** Uses pressure sensors and accelerometer to track height, camera to upload pictures and videos of the climbs, location to find nearby gyms.
-*  **Story:** Allows users to find new climbs to try, track climbing data, and locate nearby gyms.
-*  **Category:** Fitness
-*  **Market:** Rock climbers of any skill level.
-*  **Core habit:** Scroll through board climbs, save them for future sessions, and track your climbs.
-*  **Scope:** Future scope could allow users to find outdoor climbs and also post beta of climbs to a feed of friends.
+- **Category:** Fitness
+- **Mobile:** Uses pressure sensors and accelerometer to track height, camera to upload pictures and videos of the climbs, location to find nearby gyms.
+- **Story:** Creates a better way for climbers to learn and enjoy the sport, providing a space for discovery, new challenges, and organized log of previous climbs to review and learn from
+- **Market:** Rock bers of any skill level
+- **Habit:** Scroll through board climbs, save them for future sessions, and track your climbs
+- **Scope:** Future scope could allow users to find outdoor climbs and also post beta of climbs to a feed of friends
 
-## Key App Features
+## Product Spec
 
-### 1) Doomscrollable Climbing Feed
+### 1. User Features (Required and Optional)
 
-- Infinite vertical scrolling of climbing routes.
-- Local route data queried from pre-populated BoardLib/Boardsesh SQLite databases.
-- Route metadata such as grade, setter, angle, and hold placements.
-- Save interesting climbs to try during a future session.
+**Required Features**
 
-### 2) Passive Session Tracking
+1. Scrollable feed of kilter board set ups, where the user ca click and get the setting of the board
+2. log book where users can log their day of climbing 
+3. post pictures in log book
+4. track climbing distance using phone sensors when the phone is with the user during long climbs
+5. favorite kilter board setups so they can be found easily
 
-- Uses the phone’s accelerometer and barometer to track climbing sessions.
-- Automatically logs attempts, wall time, and falls.
-- Runs through an Android Foreground Service with an ongoing notification so sensors continue working while the phone is locked in a pocket.
+**Optional Features**
 
-### 3) Gym-Aware Discovery
+1. Find nearby rock climbing gyms using the user's current location
+2. Find outdoor climbing puzzles
+3. post videos in log book
 
-- Uses `FusedLocationProviderClient` to identify the closest climbing gym.
-- Uses geofencing to detect when a user enters a favorite gym.
-- Filters the feed to climbs available at that gym’s board, angle, and setup.
+### 2. Screen Archetypes
 
-## Data and API Integration
+- [list first screen here]
+  - [list associated required story here]
+  - ...
+- [list second screen here]
+  - [list associated required story here]
+  - ...
 
-### BoardLib
+### 3. Navigation
 
-BoardLib is an open-source Python utility that interacts with the undocumented APIs for major climbing boards, including Kilter, Tension, and Grasshopper. It downloads synchronized SQLite databases containing public climbs and metadata.
+**Tab Navigation** (Tab to Screen)
 
-The app will not run BoardLib on the phone. Developers will use it to fetch official databases, bundle the pre-populated SQLite files in the Android app’s `assets` folder, and query them locally through Room. This supports fast feed scrolling without network latency or API rate limits.
+* [fill out your first tab]
+* [fill out your second tab]
+* [fill out your third tab]
 
-### Boardsesh
+**Flow Navigation** (Screen to Screen)
 
-Boardsesh is an open-source community app supporting multiple climbing boards, Bluetooth board control, logbooks, and spray walls. Its repository is an architectural reference for potential future Bluetooth LED integration, allowing the app to light routes directly on a physical board.
+- [list first screen here]
+  - [list screen navigation here]
+  - ...
+- [list second screen here]
+  - [list screen navigation here]
+  - ...
 
-### Google Play Services Location API
+## Wireframes
 
-`FusedLocationProviderClient` combines GPS, Wi-Fi, and cellular signals to provide battery-efficient location checks. The app will use it with geofencing to detect gym entry and automatically tailor route discovery to the user’s current gym.
+[Add picture of your hand sketched wireframes in this section] <img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
 
-## Sensor and Background Services
+<br>
 
-- **Foreground Service:** Keeps session tracking active for extended climbing sessions and displays an ongoing notification.
-- **SensorManager:** Listens for `TYPE_LINEAR_ACCELERATION` and `TYPE_PRESSURE`.
-- **FusedLocationProviderClient:** Performs one-off or periodic location checks for gym discovery and geofencing.
+<br>
 
-## Collaboration Notes
+### [BONUS] Digital Wireframes & Mockups
 
-- This repository is intended for three collaborators.
-- Keep changes small and reviewable while the concept is evolving.
-- Avoid heavy scaffolding until requirements are locked.
+### [BONUS] Interactive Prototype
 
-## Suggested Next Setup (When Ready)
+<br>
 
-When the concept is finalized, add:
-- Android Studio project scaffold with Kotlin support
-- Groovy-based Gradle files (`settings.gradle`, root `build.gradle`, app `build.gradle`)
-- Basic package naming convention and module structure
-- Room entities and DAOs for the bundled climbing databases
-- Foreground service and sensor tracking implementation
-- Location permissions and gym geofencing
-- CI checks for build + unit tests
+# Milestone 2 - Build Sprint 1 (Unit 8)
+
+## GitHub Project board
+
+[Add screenshot of your Project Board with three milestones visible in
+this section]
+<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+
+## Issue cards
+
+- [Add screenshot of your Project Board with the issues that you've been working on for this unit's milestone] <img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+- [Add screenshot of your Project Board with the issues that you're working on in the **NEXT sprint**. It should include issues for next unit with assigned owners.] <img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+
+## Issues worked on this sprint
+
+- List the issues you completed this sprint
+- [Add giphy that shows current build progress for Milestone 2. Note: We will be looking for progression of work between Milestone 2 and 3. Make sure your giphys are not duplicated and clearly show the change from Sprint 1 to 2.]
+
+<br>
+
+# Milestone 3 - Build Sprint 2 (Unit 9)
+
+## GitHub Project board
+
+[Add screenshot of your Project Board with the updated status of issues for Milestone 3. Note that these should include the updated issues you worked on for this sprint and not be a duplicate of Milestone 2 Project board.] <img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+
+## Completed user stories
+
+- List the completed user stories from this unit
+- List any pending user stories / any user stories you decided to cut
+from the original requirements
+
+[Add video/gif of your current application that shows build progress]
+<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+
+## App Demo Video
+
+- Embed the YouTube/Vimeo link of your Completed Demo Day prep video
