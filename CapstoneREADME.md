@@ -15,7 +15,7 @@ An app that allows users to find nearby gyms,  log their climbs in a dairy where
 ### App Evaluation
 
 - **Category:** Fitness
-- **Mobile:** Uses pressure sensors and accelerometer to track height, camera to upload pictures and videos of the climbs, location to find nearby gyms. Story: Allows users to find new climbs to try, track climbing data, and locate nearby gyms.
+- **Mobile:** Uses pressure sensors and accelerometer to track height, camera to upload pictures and videos of the climbs, location to find nearby gyms.
 - **Story:** Creates a better way for climbers to learn and enjoy the sport, providing a space for discovery, new challenges, and organized log of previous climbs to review and learn from
 - **Market:** Rock climbers of any skill level
 - **Habit:** Scroll through board climbs, save them for future sessions, and track your climbs
