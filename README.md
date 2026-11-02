@@ -79,9 +79,6 @@ Screens below match the [Climbing App Wireframe](https://www.figma.com/design/xu
   - User can log an attempt as Attempted or Topped, by hand or from the sensors
   - User can see each attempt, including ones caught automatically
   - User can end the session and turn it into a diary entry
-- **Record** (optional)
-  - User can film an attempt with the phone propped up at the board
-  - User can mark that clip Attempted or Topped so the video stays attached to the attempt
 - **Edit Attempt**
   - User can change an attempt's result, route, note, or video
   - User can record a new clip or pick one from the gallery
@@ -94,9 +91,6 @@ Screens below match the [Climbing App Wireframe](https://www.figma.com/design/xu
   - User can add photos (required) and notes (required)
   - User can attach a video clip (stretch)
   - User can save the day back to the diary
-- **Lock Screen**
-  - User can see the ongoing "session running" notification while the phone is locked
-  - User can log Attempted or Topped, or start a recording, without unlocking
 
 ### 3. Navigation
 
@@ -142,9 +136,6 @@ The Feed, Saved, and Diary screens also show a "Session active" banner that open
   - Change → Saved, to pick which climb attempts are logged to
   - Tap an attempt → Edit Attempt
   - End session → Diary Entry, filled in with this session's time, attempts, tops, and distance
-- Record
-  - Close → Session
-  - Attempted or Topped → Edit Attempt, with the clip attached
 - Edit Attempt
   - Close or Save → Session
   - Change route → Saved
@@ -156,9 +147,6 @@ The Feed, Saved, and Diary screens also show a "Session active" banner that open
 - Diary Entry
   - Back → Diary
   - Save entry → Diary
-- Lock Screen
-  - Tap the session notification → Session
-  - Record this attempt → Record
 
 ## Digital Wireframes
 
@@ -215,10 +203,6 @@ Digital wireframes for each screen. The source file is the [Climbing App Wirefra
 **13 Edit attempt**
 
 <img src="wireframes/13-edit-attempt.png" width="280" alt="Edit an attempt">
-
-**14 Lock screen**
-
-<img src="wireframes/14-lock-screen.png" width="280" alt="Lock screen session notification">
 
 <br>
 
