@@ -100,7 +100,7 @@
 3. Steam Friend Assistant
 
 ## New App Ideas - Evaluate and Categories
-1. Rock Climbing Companion App
+1. Rock Climbing Companion App (CHOSEN)
    - **Decription:** allows users to find nearby gyms, log their climbs in a dairy where they can provide photos and videos of the climbs they attempted. The user can also keep their phone on them during the climb where sensors in the phone will be used to track the total distance they climbed during the session, and keep tracks of attempts made on a climb. They can also scroll through a feed of outdoor rock climbing parks or scroll through a feed of kilter board setups that they can get the setting or to try themselves.
    - **Category:** Fitness
    - **Mobile:** Uses pressure sensors and accelerometer to track height, camera to upload pictures and videos of the climbs, location to find nearby gyms.
