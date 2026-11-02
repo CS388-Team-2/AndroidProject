@@ -207,6 +207,7 @@ Digital wireframes for each screen. The source file is the [Climbing App Wirefra
 <br>
 
 ### Interactive Prototype Video
+<img width="455" height="981" alt="CruxWireframe" src="https://github.com/user-attachments/assets/07329ae0-fded-441d-a463-e6a290645d5b" />
 
 
 <br>
