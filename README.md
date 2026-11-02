@@ -160,7 +160,7 @@ The Feed, Saved, and Diary screens also show a "Session active" banner that open
   - Tap the session notification → Session
   - Record this attempt → Record
 
-## Wireframes
+## Digital Wireframes
 
 Digital wireframes for each screen. The source file is the [Climbing App Wireframe](https://www.figma.com/design/xuYsFaiOD8687KP2yTE25w/Climbing-App-Wireframe?node-id=0-1).
 
@@ -222,17 +222,8 @@ Digital wireframes for each screen. The source file is the [Climbing App Wirefra
 
 <br>
 
-### [BONUS] Digital Wireframes & Mockups
+### Interactive Prototype Video
 
-[Climbing App Wireframe on Figma](https://www.figma.com/design/xuYsFaiOD8687KP2yTE25w/Climbing-App-Wireframe?node-id=0-1)
-
-<br>
-
-### [BONUS] Interactive Prototype
-
-Present the file starting on the Welcome screen. Each control in the file is named with the screen it goes to (for example, Get started goes to Permissions, and End session goes to the diary entry), which is the flow written above.
-
-[Present the wireframe](https://www.figma.com/proto/xuYsFaiOD8687KP2yTE25w/Climbing-App-Wireframe?node-id=2-2&starting-point-node-id=2%3A2)
 
 <br>
 
