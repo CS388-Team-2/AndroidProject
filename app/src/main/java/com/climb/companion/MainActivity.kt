@@ -10,18 +10,18 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.climb.companion.ui.theme.AndroidProjectTheme
+import com.climb.companion.ui.theme.CruxTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            AndroidProjectTheme {
+            CruxTheme {
                 Surface(
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    Greeting("Climbing Buddy")
+                    Greeting("Crux")
                 }
             }
         }
@@ -39,7 +39,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Preview(showBackground = true)
 @Composable
 fun GreetingPreview() {
-    AndroidProjectTheme {
-        Greeting("Climbing Buddy")
+    CruxTheme {
+        Greeting("Crux")
     }
 }
